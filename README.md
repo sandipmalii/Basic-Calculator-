@@ -65,3 +65,8 @@ This is a basic implementation of a calculator web application using HTML, CSS, 
 Enjoy using this simple calculator web application to perform basic arithmetic calculations in your web browser!
 
 Please note that this calculator is a basic implementation and may not handle more complex operations or error handling. It is intended for educational purposes and to demonstrate a simple calculator user interface.
+
+Images
+
+![calc](https://github.com/sandipmalii/Basic-Calculator-/assets/128310990/38059710-86fc-4a2d-97a1-8266e2ef03c5)
+
