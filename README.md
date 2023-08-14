@@ -1,6 +1,7 @@
 # Basic-Calculator-
 This basic calculator works on the basics of html,css and javascript.
 
+Calc link:- https://calculatorwebproject.netlify.app/
 
 # Simple Calculator Web Application
 
