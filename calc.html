@@ -1,15 +1,29 @@
+<!DOCTYPE html>
 <html>
 <head>
 <style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
 #main {
   width: 250px;
   height: 300px;
-  background-color: #0079FF; 
+  background-color: #e0e0e0;
   font-family: Arial, sans-serif;
   font-size: 19px;
   font-weight: bold;
   font-style: italic;
-    box-shadow: 8px 9px  black;
+  box-shadow: 8px 9px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 input {
@@ -28,7 +42,6 @@ input {
 </head>
 <body>
 <div id="main">
-
   <form name="f">
     <input type="text" name="ddd" placeholder="0" id="eee"> <br>
     <input type="button" value="1" onclick="f.ddd.value+=1">
@@ -50,7 +63,9 @@ input {
   </form>
 </div>
 <script>
-function add() {
+// Your JavaScript functions for the calculator buttons go here
+  
+  function add() {
 var act=0, b=0;
    act = f.ddd.value;
    b = act.charAt(act.length - 1);
@@ -99,8 +114,6 @@ function mul() {
 }
 
 
-
 </script>
-
 </body>
 </html>
